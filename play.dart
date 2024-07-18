@@ -29,8 +29,24 @@ DYNAMIC
 */
 
 int amount1 = 100;
-int amount2 = 600;
+var amount2 = 600;
 print("Amoun1: $amount1  | Amount2: $amount2");
+
+String School1 = "Marvel";
+var School2 =  "Academy";
+print("My Favourite School in the World is $School1 $School2");
+
+double value1 = 3.5;
+var value2 = 2.8;
+print("The student cgpa ranges from $value2 to $value1");
+
+bool is_programmer = false;
+var is_student = true;
+print("$is_programmer and $is_student");
+
+
+dynamic weakvariable = null;
+print("WeakVariable: $weakvariable");
 
 }
 
