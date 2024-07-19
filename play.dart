@@ -12,6 +12,10 @@ main() {
 
   print(firstname + " " + lastname);
 
+  // Const / Final
+  const String nickname = "nick";
+  print("nickname: $nickname");
+
 
 // User Input
 {
@@ -49,16 +53,69 @@ dynamic weakvariable = null;
 print("WeakVariable: $weakvariable");
 
 
-// String
+// STRINGS
 var s1 = 'single quote are aloowed in any string';
 var s2 = "double quote are also aloowed in any string";
 
 print(s1);
 print(s2);
 
-// RAW STRING
+// Raw string
 var k = r"Marvelous\n Academy";
 print(k);
+
+
+
+// Multiline String
+  var phrase1 = """
+this is a multiline string
+""";
+print(phrase1);
+
+var phrase2 = '''
+this is also a multiline string
+''';
+print(phrase2);
+
+
+// LISTS IN DART
+var friends = ["marvel", "lovely", "Rose", "princess"];
+print(friends);
+print(friends[0]);
+
+// Change Item In List
+friends[2] = "Faith";
+print(friends);
+
+// Create An Empty Array
+var emptylist = [];
+print(emptylist);
+
+// Add To Empty List
+emptylist.add(22);
+print(emptylist);
+
+// Add Multply To Empty List
+emptylist.addAll([33, 44, 55, 66, 77, 88, 99]);
+print(emptylist);
+
+
+// Insert At Specify Position (position, items)
+emptylist.insert(1, 11);
+print(emptylist);
+
+// Insert All
+emptylist.insertAll(3, [43, 87, 67]);
+print(emptylist);
+
+
+// Remove From List
+emptylist.remove(43);
+print(emptylist);
+
+// Remove From Specific Location
+emptylist.removeAt(8);
+print(emptylist);
 
 }
 
