@@ -12,7 +12,7 @@ main() {
 
   print(firstname + " " + lastname);
 
-  // Const / Final
+  // // Const / Final
   const String nickname = "nick";
   print("nickname: $nickname");
 
@@ -164,6 +164,24 @@ for (var name in names){
 }
 
 // WHILE LOOP
+while (num >= 1) {
+  print(num);
+  num --;
+}
+
+
+// LOGIC IN DART(IF/ IF ELSE)
+var value10 = 30;
+if (value10 <= 20){
+  print("the number is less than or equal to 20");
+} 
+else if (value10 ==30 ){
+  print("the number is 30");
+}
+else {
+  print("the number is more than 30");
+}
+
 
 
 
