@@ -91,31 +91,66 @@ print(friends);
 var emptylist = [];
 print(emptylist);
 
-// Add To Empty List
+// add To Empty List
 emptylist.add(22);
 print(emptylist);
 
-// Add Multply To Empty List
+// add Multply To Empty List
 emptylist.addAll([33, 44, 55, 66, 77, 88, 99]);
 print(emptylist);
 
 
-// Insert At Specify Position (position, items)
+// insert At Specify Position (position, items)
 emptylist.insert(1, 11);
 print(emptylist);
 
-// Insert All
+// insert All
 emptylist.insertAll(3, [43, 87, 67]);
 print(emptylist);
 
 
-// Remove From List
+// remove From List
 emptylist.remove(43);
 print(emptylist);
 
-// Remove From Specific Location
+// remove From Specific Location
 emptylist.removeAt(8);
 print(emptylist);
+
+
+// MAPS(Dictionary)/Key and Value Pair
+var toppinng = {"john": "Pizza", "mary": "friedchicken"};
+print(toppinng);
+print(toppinng['mary']);
+
+// show values
+print(toppinng.values);
+
+// show keys
+print(toppinng.keys);
+
+// show length
+print(toppinng.length);
+
+// add something
+toppinng["favor"] = "ice cream";
+print(toppinng);
+
+// add many
+toppinng.addAll({"prince": "shawamar", "marvel": "cheese"});
+print(toppinng);
+
+// remove something
+toppinng.remove('favor');
+print(toppinng);
+
+
+// remove everything
+toppinng.clear();
+print(toppinng);
+
+
+// LOOPS IN DART
 
 }
 
