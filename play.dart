@@ -57,7 +57,8 @@ print(s1);
 print(s2);
 
 // RAW STRING
-
+var k = r"Marvelous\n Academy";
+print(k);
 
 }
 
