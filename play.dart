@@ -157,11 +157,11 @@ for (var i = num; i >=1; i--) {
 }
 
 // FOR IN LOOP
-// var names = ['james', 'john', 'kelvin', 'gift'];
+var names = ['james', 'john', 'kelvin', 'gift'];
 
-// for (var name in names){
-//   print(name);
-// }
+for (var name in names){
+  print(name);
+}
 
 // WHILE LOOP
 
