@@ -182,6 +182,14 @@ else {
   print("the number is more than 30");
 }
 
+// FUNCTIONS IN DART
+myFun(String fullname, int Age) {
+  return"Hello $fullname You are $Age Years Old";
+}
+
+print(myFun("Marvelous Ajuzie", 22));
+
+
 
 
 
