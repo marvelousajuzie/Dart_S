@@ -48,6 +48,17 @@ print("$is_programmer and $is_student");
 dynamic weakvariable = null;
 print("WeakVariable: $weakvariable");
 
+
+// String
+var s1 = 'single quote are aloowed in any string';
+var s2 = "double quote are also aloowed in any string";
+
+print(s1);
+print(s2);
+
+// RAW STRING
+
+
 }
 
-
+  
