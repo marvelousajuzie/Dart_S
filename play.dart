@@ -151,6 +151,21 @@ print(toppinng);
 
 
 // LOOPS IN DART
+var num = 7;
+for (var i = num; i >=1; i--) {
+  print(i);
+}
+
+// FOR IN LOOP
+// var names = ['james', 'john', 'kelvin', 'gift'];
+
+// for (var name in names){
+//   print(name);
+// }
+
+// WHILE LOOP
+
+
 
 }
 
