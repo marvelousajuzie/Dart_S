@@ -228,7 +228,25 @@ var nummy4 = int.parse(nummy?? '0');
 print(nummy2 + nummy4);
 
 
+// FIZZBUZZ Game
 
+int nums = 1;
+while (nums <= 100 ) {
+  if(nums % 2 == 0 && nums % 4 == 0){
+    print("$nums. FIZZBUZZ");
+  }
+  else if(nums % 2 == 0){
+    print("$nums.FIZZ");
+  }
+  else if(nums % 4 == 0){
+    print("$nums.BUZZ");
+  }
+  else{
+    print("$nums");
+  }
+
+  nums++;
+}
 
 
 
