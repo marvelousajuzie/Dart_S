@@ -1,6 +1,9 @@
 import 'dart:io';
 
 
+
+
+
 // Printing hello world/
 main() {
   print("Hello Everyone");
@@ -18,11 +21,9 @@ main() {
 
 
 // User Input
-{
-  stdout.writeln("What is your name? ");
-  String name = stdin.readLineSync() ?? "guest";
-  print("My name is $name");
-}
+print('Enter Your Fullname: ');
+var Fullname = stdin.readLineSync();
+print("Hello $Fullname Welcome! To Dart");
 
 /* Data Types in Dart
 INT
@@ -189,6 +190,29 @@ myFun(String fullname, int Age) {
 
 print(myFun("Marvelous Ajuzie", 22));
 
+
+// CONVERT STRING TO INTEGER IN DART
+// string to int
+var a,b,c;
+a = 10;
+b= '4';
+c = a + int.parse(b);
+print("$a + $b = $c");
+
+// string to double
+var d,e,f;
+d = 11;
+e = '3.5';
+f = d + double.parse(e);
+print("$d + $e = $f");
+
+// int to string
+
+var values11, value22, value33; 
+values11 = "Marvelous siblings are ";
+value22 = 5;
+value33 = values11 + value22.toString();
+print(value33 + " in Number");
 
 
 
