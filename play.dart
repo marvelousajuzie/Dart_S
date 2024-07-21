@@ -215,6 +215,24 @@ value33 = values11 + value22.toString();
 print(value33 + " in Number");
 
 
+// USER INPUT TYPE CONVERSATION
+print("Enter a number: ");
+
+var nummy = stdin.readLineSync();
+var nummy2 = int.parse(nummy?? '0');
+
+print("Enter a number: ");
+var nummy3 = stdin.readLineSync();
+var nummy4 = int.parse(nummy?? '0');
+
+print(nummy2 + nummy4);
+
+
+
+
+
+
+
 
 
 }
