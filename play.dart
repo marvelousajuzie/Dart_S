@@ -1,3 +1,6 @@
+
+
+
 import 'dart:io';
 
 
@@ -249,10 +252,38 @@ while (nums <= 100 ) {
 }
 
 
-
-
+// CLASSES IN DART(WITH INITIALIZATION)
+// create class person
+Student p1 = Student();
+ p1.addStudent("marvel", "female", 20, 3.5);
+ p1.getdata();
+Student p2 = Student();
+p2.addStudent("prince", "male", 18, 2.9);
+p2.getdata();
 
 
 }
 
-  
+class Student{
+  String? studentname, sex;
+  double? Age, Gpa;
+
+
+
+  void addStudent(String studentname, sex, double Age, Gpa) {
+    
+    this.studentname = studentname;
+    this.sex = sex;
+    this.Age = Age;
+    this.Gpa = Gpa;
+
+  }
+
+
+  void getdata() {
+    print("Hello $studentname! You are a $sex, You are $Age Years old and have a CGPA of $Gpa");
+
+  }
+}
+
+
