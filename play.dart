@@ -23,6 +23,39 @@ main() {
   print("nickname: $nickname");
 
 
+// String to int
+var ronaldo = int.parse("35");
+print(ronaldo);
+
+// String to Decimal
+var messi = double.parse("65.5");
+print(messi);
+
+// Int to String
+var program1 = 20.toString();
+print(program1);
+
+// Double To String
+var program2 = 89.5.toString();
+print(program2);
+
+
+// type test
+var x = 308;
+
+if ( x is int) {
+  print("Value is an interger");
+
+}
+else if (x is String){
+  print("Value is a String");
+}
+else if (x is bool){
+  print("Value is a Boolean");
+}else{
+  print("Confused Value");
+}
+
 // User Input
 print('Enter Your Fullname: ');
 var Fullname = stdin.readLineSync();
@@ -263,6 +296,8 @@ p2.getdata();
 
 
 }
+
+
 
 class Student{
   String? studentname, sex;
