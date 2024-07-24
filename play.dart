@@ -40,6 +40,14 @@ var program2 = 89.5.toString();
 print(program2);
 
 
+// SET IN DART(UNIQUE COLLECTIONS OF ITEMS)
+var halogens = {"chlorine", "flourine", "Hydrogen", "flourine", "chlorine", };
+
+for ( var k in halogens){
+  print(k);
+}
+
+
 // type test
 var x = 308;
 
@@ -120,7 +128,11 @@ var friends = ["marvel", "lovely", "Rose", "princess"];
 print(friends);
 print(friends[0]);
 
-// Change Item In List
+// OR LIST BASED ON TYPE
+List<int> nim = [22, 44, 66, 88];
+print(nim);
+
+// Change Item In List 
 friends[2] = "Faith";
 print(friends);
 
@@ -189,7 +201,8 @@ print(toppinng);
 
 // LOOPS IN DART
 var num = 7;
-for (var i = num; i >=1; i--) {
+for (var i = 1; i <=8; ++i) {
+  if ( i >=5) break;
   print(i);
 }
 
